@@ -1,0 +1,3 @@
+<div *ngIf="options && theme; else noOption" echarts [options]="options" [theme]="theme" class="demo-chart"></div>
+
+<ng-template #noOption>No data</ng-template>
