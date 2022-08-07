@@ -13,11 +13,11 @@ import { ICountry } from '../models/countries';
 })
 export class TableComponent implements OnInit, AfterViewInit {
 
-  @ViewChild(MatSort) sort: MatSort;
-  @ViewChild(MatPaginator) paginator: MatPaginator;
+  @ViewChild(MatSort) sort!: MatSort;
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
 
   public columns: string[] = ['id', 'country', 'population', 'km2'];
-  public dataSource: MatTableDataSource<ICountry>;
+  public dataSource!: MatTableDataSource<ICountry>;
  
   constructor(
     private chartService: ChartService

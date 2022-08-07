@@ -11,8 +11,8 @@ import { BarchartComponent } from '../barchart/barchart.component';
 })
 export class DashboardComponent implements OnInit {
 
-  @ViewChild(PiechartComponent) pie: PiechartComponent;
-  @ViewChild(BarchartComponent) bar: BarchartComponent;
+  @ViewChild(PiechartComponent) pie!: PiechartComponent;
+  @ViewChild(BarchartComponent) bar!: BarchartComponent;
 
   constructor(
     public toastr: ToastrService,

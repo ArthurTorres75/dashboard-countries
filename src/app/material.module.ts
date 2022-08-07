@@ -1,6 +1,6 @@
  // Material modules imports go here
 
-import { MAT_DATE_LOCALE, MAT_LABEL_GLOBAL_OPTIONS, MatNativeDateModule } from '@angular/material/core';
+import { MAT_DATE_LOCALE, MatNativeDateModule } from '@angular/material/core';
 
 import { CommonModule } from '@angular/common';
 

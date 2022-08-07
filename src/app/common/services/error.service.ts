@@ -17,7 +17,7 @@ export class ErrorService {
   }
 
   getClientStack(error: Error): string {
-    return error.stack;
+    return error.stack!;
   }
 
   getServerMessage(error: HttpErrorResponse): string {

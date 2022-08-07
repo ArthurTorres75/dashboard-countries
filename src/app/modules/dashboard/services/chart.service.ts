@@ -9,7 +9,7 @@ import { Countries } from '../models/mockCountries';
 export class ChartService {
 
   countries: ICountry[];
-  theme: string;
+  theme: string = '';
   options: any;
   constructor() {
     this.countries = Countries;

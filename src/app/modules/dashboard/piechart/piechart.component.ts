@@ -8,7 +8,7 @@ import { ChartService } from '../services/chart.service';
 })
 export class PiechartComponent implements OnInit {
 
-  public theme: string;
+  public theme: string = '';
   public options: any;
 
   constructor(private chartService: ChartService) { }
